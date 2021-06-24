@@ -1,0 +1,256 @@
+
+/**********INDEX**********/
+
+.container-fluid{
+    padding: 3% 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/******Meni******/
+
+#navigator{
+    background-color:  #010f47;
+    padding: 0% 5% ;
+    
+}
+
+
+
+.nav-item{
+    padding: 0% 12px;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+/******Naslov******/
+
+#naslov{
+    background-color:  #010f47;
+    padding:0% 15% 1%;
+    
+    background-image: url("pozadina-01.jpg");
+    background-size: 100%;
+}
+
+#delovi{
+    padding: 3% 15%;
+}
+
+.glavni-naslov{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    padding-top: 25%;
+    
+}
+
+/******Video reklama******/
+
+#video{
+    background-color:  white;
+    text-align: center;
+    color: #010f47;
+   
+    padding: 5% 5% 2%;
+    font-size: 1.5rem;
+}
+
+.video-container{
+    padding: 5% ;
+    
+}
+
+.pasus-video{
+    padding: 3% 15%;
+}
+
+/******Delovi******/
+
+#delovi{
+    background-color:  #010f47;
+    color: white;
+    background-image: url("pozadina-01.jpg");
+    background-size: 100%;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+/******UKUSI******/
+
+.ukusi-text{
+    font-weight: 700;
+   
+    line-height: 1.5;
+}
+
+#ukusi{
+    text-align: center;
+    padding: 3% 2%;
+}
+
+.ukusi-naslov{
+    padding: 3% 5%;
+}
+
+/******Footer******/
+
+
+#footer{
+    text-align: center;
+    background-color:  #010f47;
+    color: white;
+    padding: 2% 5%;
+}
+
+.ikona-futer{
+    padding: 3% 2%;
+    color: white;
+    text-decoration: none;
+}
+
+/**********GALERIJA**********/
+
+
+
+.galerija-naslov{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #010f47;
+    padding: 5%;
+    text-align: center;
+
+}
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+  
+/**********RECEPTI**********/
+  
+#recepti{
+    padding:1% 15% 10%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#accordition{
+    text-decoration: none;
+}
+.telo-recepti{
+    padding: 3% 10%;
+}
+.accordition-body{
+    padding: 3% 10%;
+}
+.recepti-naslov{
+    color: #010f47;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    padding: 7% 0%;
+    text-align: center;
+}
+
+
+/**********KONTAKT**********/
+#o-nama{
+    background-color:  #010f47;
+    padding: 1% 15% 5%;
+    text-align: center;
+}
+
+.naslov-kontakt{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    size: 1.2rem;
+    margin-top: 25px;
+    
+
+}
+
+.text-kontakt{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    size: 1.2rem;
+    padding-top: 15%;
+}
+
+.podaci{
+    padding: 5% 15%;
+}
+
+.kontakt-podaci{
+    color: #010f47;
+    font-family: 'Roboto', sans-serif;
+    size: 1.4rem;
+    text-align: center;
+    padding-top: 10%;
+
+}
+#map{
+    width: 20%;
+}
+
